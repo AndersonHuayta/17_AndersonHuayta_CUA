@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.wrp{
+    width: 100%; height: 600px;
+    position: relative;
+}
+
+.portada{
+    width: 100%; height: 100%;
+    background: url("img/portada.jpg");
+    background-attachment: fixed;
+}
+.contenido{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,11,0.6);
+}
+.contenido .info{
+    width: 100%;
+    max-width: 750px;
+    text-align: center;
+}
+.contenido .info h1{
+    color: #fff;
+    font-size: 50px;
+    text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+.contenido .info a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 10px 25px;
+    color: #fff;
+    background: #4865c3;
+    border-radius: 50px;
+    margin-bottom: 40px;
+    border: 2px solid transparent;
+    transition: all 300ms ease;
+    letter-spacing: 0.5px; 
+}
+.contenido .info a:hover{
+    background: transparent; 
+    border: 2px solid #fff;
+}
+.curveado{
+    position: absolute;
+    width: 100%;
+    bottom: -10px;
+}
+.curveado img{
+    width: 100%;
+}
+@media(max-width:768px){
+    .contenido .info h1{
+        font-size: 35px;
+    }    
+}
+
+.header-content{
+    margin-top: 100px;
+    display: flex;
+    padding: 50px;
+    background-color: #f5f9fc;
+    border-radius: 25px;
+}
+
+.header-txt{
+    width: 50%;
+
+}
+
+.titulo{
+    font-size: 50px;
+    line-height: 70px;
+    color: #12114D;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.mensaje1 {
+    font-size: 16px;
+    color: #656875;
+}
+
+.general {
+    padding: 100px 0;
+    display: flex;
+}
+
+.general-1{
+    width: 70%;
+    display: flex;
+}
+
+.general-card {
+    padding: 40px;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 25px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+.general-2 {
+    width: 30%;
+    margin: 0 35px;
+}
+
+.bg-1 {
+    width: 33%;
+    height: 400px;
+    background-image: url(img/img3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-2 {
+    width: 33%;
+    height: 400px;
+    background-image: url(img/img4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-3 {
+    width: 33%;
+    height: 400px;
+    background-image: url(img/img5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
